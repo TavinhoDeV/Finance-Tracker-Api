@@ -1,0 +1,28 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.swp
+*.sln.docstates
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+## NuGet
+*.nupkg
+.nuget/
+
+## Secrets / Config
+appsettings.Development.json
+appsettings.json
+appsettings.Production.json
+**/appsettings.*.secret.json
+
+## Rider / VS
+.idea/
+.vscode/
