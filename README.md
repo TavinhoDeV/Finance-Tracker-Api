@@ -1,8 +1,8 @@
-# 💰 Finance Tracker API
+#  Finance Tracker API
 
 A personal finance management REST API built with **Clean Architecture + CQRS + MediatR** in ASP.NET Core 8.
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 src/
@@ -14,7 +14,7 @@ tests/
 └── FinanceTracker.Tests/           # xUnit + Moq + FluentAssertions
 ```
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -29,7 +29,7 @@ tests/
 | Docs | Swagger / OpenAPI |
 | Tests | xUnit + Moq + FluentAssertions |
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -40,7 +40,7 @@ tests/
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/your-username/finance-tracker-api.git
+git clone git remote add origin https://github.com/TavinhoDeV/Finance-Tracker-Api.git
 cd finance-tracker-api
 ```
 
@@ -86,7 +86,7 @@ Update connection string:
 Server=localhost,1433;Database=FinanceTrackerDb;User Id=sa;Password=Your_password123;TrustServerCertificate=True;
 ```
 
-## 📡 API Endpoints
+##  API Endpoints
 
 ### Auth
 | Method | Endpoint | Description |
@@ -115,7 +115,7 @@ Server=localhost,1433;Database=FinanceTrackerDb;User Id=sa;Password=Your_passwor
 ?from=2024-01-01&to=2024-01-31&type=Expense&category=Food&page=1&pageSize=20
 ```
 
-## 📦 Example Requests
+##  Example Requests
 
 **Register**
 ```json
@@ -152,13 +152,13 @@ Authorization: Bearer {token}
 }
 ```
 
-## 🧪 Running Tests
+##  Running Tests
 
 ```bash
 dotnet test
 ```
 
-## 🔑 Design Patterns
+##  Design Patterns
 
 - **Clean Architecture** — dependency flow from outer layers to inner
 - **CQRS** — commands and queries in separate classes
@@ -168,7 +168,7 @@ dotnet test
 - **Domain-Driven Design** — rich entities with private setters and factory methods
 - **Global Exception Handling Middleware** — centralized error responses
 
-## 🏢 Account Types
+##  Account Types
 
 | Value | Type |
 |---|---|
@@ -177,7 +177,7 @@ dotnet test
 | 3 | CreditCard |
 | 4 | Investment |
 
-## 📁 Transaction Categories
+##  Transaction Categories
 
 | Value | Category |
 |---|---|
